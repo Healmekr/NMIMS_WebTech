@@ -1,0 +1,283 @@
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .tour-card {
+        height: 400px;
+    }
+
+    .row-wise-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .carousel {
+        height: 400px;
+    }
+
+    .static-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .btn {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 400px;
+        background: var(--primary-color);
+        top: -600px;
+        left: 0;
+        padding: 3rem 1rem;
+        transition: all 0.5s ease-in;
+        z-index: 10;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 15px;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 0rem;
+        right: 0;
+        margin: 25px;
+    }
+
+    nav ul.display {
+        top: 0;
+        transition: all 0.5s ease-in-out;
+    }
+
+    nav ul li::before {
+        top: 45px;
+        left: 15px;
+    }
+
+    nav ul li:hover::before {
+        width: 20%;
+    }
+
+    .swiper {
+        height: 60vh;
+        min-height: 400px;
+    }
+
+    .img-overlay {
+        top: 50%;
+    }
+
+    .img-overlay h2 {
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+    }
+
+    .img-overlay p {
+        font-size: 0.75rem;
+        letter-spacing: 3px;
+    }
+
+    #location-search {
+        margin-top: -100px;
+    }
+
+    .form-wrapper {
+        padding: 1.5rem 1rem;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    form input,
+    form select {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .primary-btn {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    #location-search {
+        transform: translateY(0%);
+        margin: 2rem 0;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about-content-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .agency-right-side .img::after {
+        top: 15px;
+        left: 15px;
+        bottom: 0;
+        right: 0;
+        width: 90%;
+    }
+
+    .choose-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tour-card {
+        height: 400px;
+    }
+
+    .row-wise-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hidden-content {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .carousel {
+        height: 380px;
+    }
+
+    .carousel-img-overlay .img-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .swiper2 .swiper-button-next,
+    .swiper2 .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+    }
+
+    .swiper2 .swiper-button-next:after,
+    .swiper2 .swiper-button-prev:after {
+        font-size: 1.2rem;
+    }
+
+    .video-content h2 {
+    font-size: 2rem;
+    letter-spacing: 4px;
+   
+}
+
+.video-content span {
+    font-size: 1.2rem;
+    
+}
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 80px;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+
+    .swiper {
+        height: 50vh;
+        min-height: 350px;
+    }
+
+    .img-overlay h2 {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+        line-height: 1.2;
+    }
+
+    .img-overlay p {
+        font-size: 0.65rem;
+        letter-spacing: 2px;
+    }
+
+    #location-search {
+        margin-top: -80px;
+    }
+
+    .form-wrapper {
+        padding: 1rem;
+    }
+
+    form {
+        gap: 0.6rem;
+    }
+
+    form input,
+    form select {
+        padding: 0.7rem;
+        font-size: 0.95rem;
+    }
+
+    .primary-btn {
+        padding: 0.7rem;
+        font-size: 0.95rem;
+    }
+
+    .tour-card {
+        height: 350px;
+    }
+
+    .img-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hidden-content span {
+        font-size: 0.9rem;
+    }
+
+    .hidden-content {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .static-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .carousel {
+        height: 350px;
+    }
+
+    .carousel-img-overlay {
+        padding: 1.5rem;
+    }
+
+    .carousel-img-overlay .img-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hidden-content-carousel {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+    }
+
+    .hidden-content-carousel span {
+        font-size: 1rem;
+    }
+
+    .swiper2 .swiper-button-next,
+    .swiper2 .swiper-button-prev {
+        width: 35px;
+        height: 35px;
+    }
+
+    .swiper2 .swiper-button-next:after,
+    .swiper2 .swiper-button-prev:after {
+        font-size: 1rem;
+    }
+}
