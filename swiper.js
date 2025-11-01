@@ -80,3 +80,35 @@ const swiper4 = new Swiper(".swiper4", {
   pagination: { el: ".swiper-pagination", clickable: true, dynamicBullets: true },
   breakpoints: { 0: { slidesPerView: 1, spaceBetween: 12 }, 640: { slidesPerView: 2, spaceBetween: 20 }, 1024: { slidesPerView: 2, spaceBetween: 24 } }
 });
+
+const swiper5 = new Swiper(".swiper5", {
+    slidesPerView: 1,
+    spaceBetween: 95,
+    slidesPerGroup: 1,
+    loop: true,
+    fade: true,
+    centerSlide: true,
+    grabCursor: true,
+    loopFillGroupWithBlank: true,
+
+    autoplay: {
+        delay: 5000,
+    },
+
+    speed: 400,
+
+    breakpoints: {
+        
+        320: {
+            slidesPerView: 1,
+        },
+       
+        768: {
+            slidesPerView: 1,
+        },
+       
+        968: {
+            slidesPerView: 1,
+        },
+    },
+});
